@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top-edge"></div>
+        <div class="calculation">
+            <div id="first" class="first-number"></div>
+            <div id="second" class="second-number"></div>
+            <hr class="result-line">
+            <div class="clear"></div>
+            <div id="result" class="result"></div>
+        </div>
+        <div class="options">
+            <button class="btn operation" data-action="clear">C</button>
+            <button class="btn operation" data-action="operator" value="÷">&divide</button>
+            <button class="btn operation" data-action="operator" value="×">&times</button>
+            <button class="btn operation del" data-action="del"><i id="delete-icon" class="fas fa-backspace"></i></button>
+            <button class="btn num" value="7">7</button>
+            <button class="btn num" value="8">8</button>
+            <button class="btn num" value="9">9</button>
+            <button class="btn operation" data-action="operator" value="-">-</button>
+            <button class="btn num" value="4">4</button>
+            <button class="btn num" value="5">5</button>
+            <button class="btn num" value="6">6</button>
+            <button class="btn operation" data-action="operator" value="+">+</button>
+            <button class="btn num" value="1">1</button>
+            <button class="btn num" value="2">2</button>
+            <button class="btn num" value="3">3</button>
+            <button class="btn operation equal" data-action="equal">=</button>
+            <button class="btn num zero" value="0">0</button>
+            <button class="btn dot" data-action="dot" value=".">.</button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
